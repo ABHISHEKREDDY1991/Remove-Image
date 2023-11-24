@@ -1,0 +1,10 @@
+body{
+    background-color: brown;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    max-width: 200%;
+    height: auto;
+}

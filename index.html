@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Remove</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Image Removal Example</h1>
+
+    
+    <img id="myImage" src=https://tse1.mm.bing.net/th?id=OIP.7YtI-V_MZpLzQG5q2t1MNgHaKg&pid=Api&P=0&h=180 alt="Sample Image">
+    <br>
+
+    
+    <button onclick="removeImage()">Remove Image</button>
+    <script>
+        
+        function removeImage() {
+            var image = document.getElementById("myImage");
+            if (image) {
+                image.remove();
+            } else {
+                alert("Image not found!");
+            }
+        }
+    </script>
+
+    
+</body>
+</html>
